@@ -1,0 +1,30 @@
+<div class="project-bg">
+	<div class="project-bg_image" [ngStyle]="{'background-image': 'url(' + imageSrc + ')'}"></div>
+</div>
+<div class="project-content">
+	<div class="project-header">
+		<div class="project-header_title">
+			<h1 class="page-title text-center">{{name}}</h1>
+			<a href="{{ link }}" target="_blank">Visit website</a>
+		</div>
+	</div>
+	<div class="project-body">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6">
+					<p class="description">
+						{{desc}}
+					</p>	
+				</div>
+				<div class="col-xs-12 col-sm-6">
+					<h4>Technologies stack:</h4>
+					<p class="stack">
+						{{ technologies }}
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+

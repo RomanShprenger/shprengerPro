@@ -1,0 +1,87 @@
+<section class="section-home">
+	<div class="wrapper">
+		<div class="wrapper-img"></div>
+		<div class="hello circle text-center">
+			<h1>Hello! </h1> 
+			<h1>I'm Roman</h1> 
+			<div class="profession">
+				<p><span>UI/UX and Frontend Developer</span></p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="section-about">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<h3 class="section-title text-center">About me</h3>	
+				<div class="section-content">
+					<div class="photo"></div>
+					<div class="description">
+						<h5>"I'm Frontend-developer and I like it!"</h5>
+						<p>I am engaged in design and development of interfaces of websites and applcations. I am constantly learning about new ways and trends. I'm interested in the jobs which imply creating of a nice looking, comfortable, easy to use UI on a client side. Always trying to do my code well documented and easy to understand.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="section-skills">
+	<div class="techs">
+		<div class="row nomargin">
+			<div class="col-sm-6 nopadding">
+				<div class="wrapper">
+					<div class="bg-image"></div>
+					<div class="section-desc">
+						<h1>Languages and Technologies</h1>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 nopadding">
+				<div class="skill-info">
+					<div class="compass">
+						<span class="skill">skill</span>		
+						<span class="passion">passion</span>		
+					</div>
+					<div class="diagrams">
+						<diagram *ngFor="let item of skills" [skill]="item"></diagram>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="instruments">
+		<div class="row nomargin">
+			<div class="col-sm-6 nopadding col-sm-push-6">
+				<div class="wrapper">
+					<div class="bg-image"></div>
+					<div class="section-desc">
+						<h1>Instruments</h1>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 nopadding col-sm-pull-6">
+				<div class="skill-info">
+					<dl class="skills-diagram">
+					  <dt class="skill-5">Webpack</dt>
+					  <dd>5</dd>
+					  <dt class="skill-9">Photoshop</dt>
+					  <dd>9</dd>
+					  <dt class="skill-4">RegEx</dt>
+					  <dd>4</dd>
+					  <dt class="skill-8">Sketch</dt>
+					  <dd>8</dd>
+					  <dt class="skill-6">Gulp</dt>
+					  <dd>6</dd>
+					  <dt class="skill-7">Docker</dt>
+					  <dd>7</dd>
+					  <dt class="skill-9">Git</dt>
+					  <dd>9</dd>
+					</dl>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

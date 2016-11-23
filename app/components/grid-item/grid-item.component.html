@@ -1,0 +1,16 @@
+<div class="col-md-4 col-sm-6 col-xs-12">
+	<a class="grid-item" [routerLink]="['/portfolio', id]">
+		<div class="grid-item_image" [ngStyle]="{'background-image': 'url('+previewImg+')'}">
+		</div>
+		<div class="grid-item_text">
+			<h5 class="grid-item_name text-center">
+				{{name}}
+			</h5>
+			<p class="grid-item_techs">{{ technologies }}</p>
+		</div>
+		<div class="grid-item_overlay">
+			<i class="demo-icon icon-eye"></i>
+			<h5>Read more</h5>
+		</div>
+	</a>
+</div>
