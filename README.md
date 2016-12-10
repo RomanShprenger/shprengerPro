@@ -9,3 +9,4 @@ Technologies:
 - Bootstrap
 - CSS animations
 - HTML 5
+- Webpack
