@@ -1,5 +1,4 @@
-import { Component } from '@angular/core';
-
+import { Component } from '@angular/core'
 import { SkillsComponent } from './pages/skills/skills.component'
 import { PortfolioComponent } from './pages/portfolio/portfolio.component'
 import { ProjectComponent } from './pages/project/project.component'

@@ -76,7 +76,7 @@ var InMemoryDataService = (function () {
             },
             { id: 6,
                 name: 'Angular JS',
-                level: '60',
+                level: '50',
                 passion: '70'
             },
             { id: 7,
@@ -86,7 +86,7 @@ var InMemoryDataService = (function () {
             },
             { id: 8,
                 name: 'React JS',
-                level: '60',
+                level: '30',
                 passion: '90'
             }
         ];

@@ -18,7 +18,6 @@ import { ContactsComponent } from './pages/contacts/contacts.component';
 import { ListItemComponent } from './components/list-item/list-item.component';
 import { GridItemComponent } from './components/grid-item/grid-item.component';
 import { DiagramComponent } from './components/diagram/diagram.component';
-import { OwlCarousel } from './components/slider/slider.component';
 import { ProjectService } from './services/project.service';
 import { SkillService } from './services/skills.service';
 
@@ -60,8 +59,7 @@ import { SkillService } from './services/skills.service';
     ContactsComponent,
     ListItemComponent,
     GridItemComponent,
-    DiagramComponent,
-    OwlCarousel
+    DiagramComponent
   ],
   providers: [
     ProjectService,

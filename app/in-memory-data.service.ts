@@ -74,7 +74,7 @@ export class InMemoryDataService implements InMemoryDbService {
       },
       { id: 6,
         name: 'Angular JS',
-        level: '60',
+        level: '50',
         passion: '70'
       },
       { id: 7,
@@ -84,7 +84,7 @@ export class InMemoryDataService implements InMemoryDbService {
       },
       { id: 8,
         name: 'React JS',
-        level: '60',
+        level: '30',
         passion: '90'
       }
     ]

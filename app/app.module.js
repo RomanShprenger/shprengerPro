@@ -24,7 +24,6 @@ var contacts_component_1 = require('./pages/contacts/contacts.component');
 var list_item_component_1 = require('./components/list-item/list-item.component');
 var grid_item_component_1 = require('./components/grid-item/grid-item.component');
 var diagram_component_1 = require('./components/diagram/diagram.component');
-var slider_component_1 = require('./components/slider/slider.component');
 var project_service_1 = require('./services/project.service');
 var skills_service_1 = require('./services/skills.service');
 var AppModule = (function () {
@@ -69,8 +68,7 @@ var AppModule = (function () {
                 contacts_component_1.ContactsComponent,
                 list_item_component_1.ListItemComponent,
                 grid_item_component_1.GridItemComponent,
-                diagram_component_1.DiagramComponent,
-                slider_component_1.OwlCarousel
+                diagram_component_1.DiagramComponent
             ],
             providers: [
                 project_service_1.ProjectService,
