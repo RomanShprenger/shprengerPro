@@ -1,7 +1,6 @@
 # shprengerPro
 
-
-Link to website: shprenger.pro
+Old version of my website.
 
 Technologies: 
 - Angular 2
