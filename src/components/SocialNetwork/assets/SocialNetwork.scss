@@ -1,0 +1,40 @@
+.social-list{
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    margin: 0 auto;
+    &.inverse &{
+        &__item{
+            .btn{
+                background-color: #fff;
+                color: #22211f;
+                &:hover{
+                    background-color: transparent;
+                    color: #fff;
+                }
+            }
+        }
+    }
+    &__item{
+        flex: 1 0 25%;
+        .btn{
+            padding: 0;
+            height: 46px;
+            width: 46px;
+            line-height: 46px;
+            font-size: 2em;
+            background-color: transparent;
+            border: none;
+            color: #fff;
+            transition: 0.3s;
+            &:hover{
+                background-color: #fff;
+                color: #22211f;
+                opacity: 1;
+            }
+        }
+    }
+}

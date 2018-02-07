@@ -1,0 +1,57 @@
+.badge{
+    &--preview{
+        width: 350px;
+        height: 350px;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #22211f;
+        border-radius: 50%;
+        color: #fff;
+        padding-top: 75px;
+        @media(max-width: 767px){
+            width: 280px;
+            height: 280px;
+            padding-top: 60px;
+            top: 50%;
+        }
+        @media(min-width: 1200px){
+            width: 400px;
+            height: 400px;
+            padding-top: 90px;
+            font-size: 0.85em;
+        }
+    }
+    &__title{
+        text-transform: uppercase;
+        font-size: 2.4em;
+        font-weight: bold;
+        margin: 0;
+        color: #fff;
+        @media(max-width: 767px){
+            font-size: 2em;
+        }
+    }
+    &__profession{
+        position: relative;
+        p{
+            margin: 20px 40px;
+            font-size: 1.2em;
+            color: #fff;
+            font-weight: normal;
+            @media(max-width: 767px){
+                font-size: 1em;
+                margin-bottom: 10px;
+            }
+        }
+    }
+    &__social-list{
+        width: 200px;
+        margin: 0 auto;
+        font-size: 1.2em;
+        @media(min-width: 1200px){
+            width: 260px;
+        }
+    }
+}
