@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import Parser from 'html-react-parser';
 import logo from './assets/images/logo.svg';
-import frontBg from './assets/images/preview-bg.jpg';
+import frontBg from './assets/images/bg.jpg';
 import './assets/AppComponent.css';
 import {
     Collapse,
@@ -131,7 +131,7 @@ class App extends Component {
                             <h3 className="about__subtitle">Profile</h3>
                         </Col>
                         <Col xs="12" md="8" lg="8">
-                            <p className="about__text">I'm frontend developer from Moscow (Russia) with 3+ years experience. I am engaged in design and development of interfaces of websites and applcations. I'm constantly learning about new ways and trends. I'm interested in the jobs which imply creating of a nice looking, comfortable, easy to use UI on a client side. Always trying to do my code well documented and easy to understand.</p>
+                            <p className="about__text">I'm Team Lead with 6 years experience of frontend: 3 years in IT-outsourcing development and 3 years in product development. My solutions help companies to become better, to optimize process and to reach business purposes. After 6 years in programming I want to apply my skills in business management and to go way from IT-specialist to entrepreneur. My solutions help companies to become better, to optimize process and to reach business purposes. After 6 years in programming I want to apply my skills in business management and to go way from IT-specialist to entrepreneur. I'm interested in any knowledges which I can use on this way, such as a people management, product management, marketing and sales. I'm sure that to be the best at what you do, you need to have breadth of vision.</p>
                         </Col>
                     </Row>
                     <Row>
@@ -139,6 +139,8 @@ class App extends Component {
                             <h3 className="about__subtitle">Education</h3>
                         </Col>
                         <Col xs="12" md="8" lg="8">
+                            <h5 className="about__education-title">"Team Lead" course<span>Otus "Online Education" - 2020</span></h5>
+                            <p className="about__text">In the education final step I defend diploma project on the topic of "Implementation of product metrics" <a rel="noopener noreferrer" href="https://cdn.otus.ru/media/public/b0/7a/b07aee_%D0%A0%D0%BE%D0%BC%D0%B0%D0%BD_%D0%A8%D0%BF%D1%80%D0%B5%D0%BD%D0%B3%D0%B5%D1%80__course_certificate__Team_Lead____OTUS.pdf" target="_blank">Link to certificate of ending the course</a></p>
                             <h5 className="about__education-title">Master of Technology, Computer science<span>Omsk State Technical University - 2015</span></h5>
                             <p className="about__text">Faculty of elite education and magistracy, majoring in "Computer analysis and data interpretation", master of science.</p>
                             <h5 className="about__education-title">Master of Technology, Automation and Robotics<span>Omsk State Technical University - 2013</span></h5>
@@ -166,7 +168,7 @@ class App extends Component {
                                 </Col>
                                 <Col xs={{ size: 12 }} md={{ size: 6 }} lg="4" className="order-md-4 order-lg-5">
                                     <ul className="about__expertise-list">
-                                        <li>Javascript frameworks (React, AngularJS)</li>
+                                        <li>React JS, Redux, Next JS</li>
                                         <li>Chrome extensions</li>
                                         <li>Bundlers (Webpack, Gulp)</li>
                                     </ul>
@@ -179,6 +181,46 @@ class App extends Component {
                                         <li>Atom/SublimeText 3</li>
                                         <li>Github</li>
                                         <li>iTerm</li>
+                                    </ul>
+                                </Col>
+                            </Row>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col xs="12" md="4" lg="4">
+                            <h3 className="about__subtitle">Management<br/>Expertise</h3>
+                        </Col>
+                        <Col xs="12" md="8" lg="8">
+                            <Row>
+                                <Col xs={{ size: 12 }} md={{ size: 6 }} lg="4" className="order-md-1 order-lg-1">
+                                    <h5 className="about__expertise-title">Soft skills</h5>
+                                </Col>
+                                <Col xs={{ size: 12 }} md={{ size: 6 }} lg="4" className="order-md-3 order-lg-4">
+                                    <ul className="about__expertise-list">
+                                        <li>Leadership</li>
+                                        <li>Communicability</li>
+                                        <li>Analytical mind</li>
+                                    </ul>
+                                </Col>
+                                <Col xs={{ size: 12 }} md={{ size: 6 }} lg="4" className="order-md-2 order-lg-2">
+                                    <h5 className="about__expertise-title">Team interaction</h5>
+                                </Col>
+                                <Col xs={{ size: 12 }} md={{ size: 6 }} lg="4" className="order-md-4 order-lg-5">
+                                    <ul className="about__expertise-list">
+                                        <li>Goal setting (SMART)</li>
+                                        <li>Recruitment and growth of team members</li>
+                                        <li>Delegation and control of quality and terms</li>
+                                        <li>Conflict resolution</li>
+                                    </ul>
+                                </Col>
+                                <Col xs={{ size: 12 }} md={{ size: 12 }} lg="4" className="order-md-5 order-lg-3">
+                                    <h5 className="about__expertise-title">Tools of people management</h5>
+                                </Col>
+                                <Col xs={{ size: 12 }} md={{ size: 12 }} lg="4" className="order-md-6 order-lg-6">
+                                    <ul className="about__expertise-list">
+                                        <li>1-on-1</li>
+                                        <li>Agile</li>
+                                        <li>Feedback</li>
                                     </ul>
                                 </Col>
                             </Row>

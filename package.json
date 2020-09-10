@@ -7,18 +7,18 @@
     "react-scripts": "1.0.17"
   },
   "dependencies": {
-    "animate.css": "^3.5.2",
-    "bootstrap": "^4.0.0-beta.3",
-    "html-react-parser": "^0.4.1",
+    "animate.css": "^3.7.2",
+    "bootstrap": "^4.5.2",
+    "html-react-parser": "^0.4.7",
     "loaders.css": "^0.1.2",
     "node-sass-chokidar": "0.0.3",
-    "npm-run-all": "^4.1.2",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
+    "npm-run-all": "^4.1.5",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
     "react-loaders": "^3.0.1",
     "react-reveal": "^0.7.3",
-    "react-scroll": "^1.7.4",
-    "reactstrap": "^5.0.0-alpha.4"
+    "react-scroll": "^1.8.1",
+    "reactstrap": "^5.0.0"
   },
   "scripts": {
     "build-css": "node-sass-chokidar --inlude-path ./src --inlude-path ./node_modules src/ -o src/",

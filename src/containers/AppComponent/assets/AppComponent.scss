@@ -184,7 +184,7 @@
         right: 0;
         bottom: 0;
         background: linear-gradient(to top, #22211f, transparent);
-        display: block;
+        display: none;
     }
 }
 
@@ -225,6 +225,16 @@
     }
     &__text{
         margin-bottom: 5rem;
+        a {
+          font-size: 1em;
+          text-decoration: underline;
+          color: #fff;
+          opacity: 0.6;
+          text-transform: uppercase;
+          &:hover {
+            opacity: 1;
+          }
+        }
     }
 }
 
